@@ -1,7 +1,8 @@
 # Redes Neurais em Python
 
 Aulas de Redes Neurais Artificiais em Python
-Preparando conteúdos em python.
+
+## Preparando conteúdos em python.
 
  - Perceptron
  - Multicamadas
