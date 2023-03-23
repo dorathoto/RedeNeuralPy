@@ -67,4 +67,7 @@ for j in range(1):
     camadaOcultaTransposta = camadaOculta.T
     pesosNovos1 = camadaOcultaTransposta.dot(deltaSaida)
     pesos1 = (pesos1 * momento) + (pesosNovos1 * txAprendizagem)
-    #deltaEscondida = np.dot(derivadaSaida,pesos1,deltaSaida)
+    
+    camadaEntradaTransposta = camadaEntrada.T
+    pesosNovo0 = camadaEntradaTransposta.dot(deltaCamadaOculta)
+    pesos0 = (pesos0 * momento) + (pesosNovo0 * txAprendizagem)
