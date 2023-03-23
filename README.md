@@ -8,6 +8,8 @@ Preparando conteúdos em python.
  - gradiente cost function (min local, min global)
  - Atributos previsores (entrada) aula22
  - Ajustes de pesos com backpropagation 
+ 
+ 
 
 ## Configurando o ambiente
 #### instale o Python 3.8+
