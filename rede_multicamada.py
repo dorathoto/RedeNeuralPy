@@ -40,7 +40,7 @@ pesos0 = 2* np.random.random((2,3))-1
 #pesos1 = np.array([[-0.017],[-0.893],[0.148]])
 pesos1 = np.random.random((3,1))-1
 
-epocas = 10000
+epocas = 100000
 txAprendizagem = 0.6
 momento = 1
 

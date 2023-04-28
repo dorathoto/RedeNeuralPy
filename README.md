@@ -1,8 +1,9 @@
+
 # Redes Neurais em Python
 
 Aulas de Redes Neurais Artificiais em Python
 
-## Preparando conteúdos em python.
+## Preparando conteúdos para alunos em python.
 
  - Perceptron
  - Multicamadas
@@ -10,11 +11,18 @@ Aulas de Redes Neurais Artificiais em Python
  - Atributos previsores (entrada) aula22
  - Ajustes de pesos com backpropagation
  - Bias - el. aumentar ajustes dos pesos.
- - MSE
- 
+ - MSE (vide fórmula) $MSE =\frac{1}{N}\sum_{i=1}^{10}  (fi - yi)^2$
+ - $RMSE = \sqrt[n]{MSE}$
+
+#### Fórmulas
 $$
-   f(x,y) = \sin(x+y)
+MSE = \frac{1}{N}\sum_{i=1}^{10} (fi - yi)^2
 $$
+$$
+RMSE = \sqrt{\frac{1}{N}\sum_{i=1}^{10} (fi - yi)^2}
+$$
+
+
 
 ## Configurando o ambiente
 #### instale o Python 3.8+
@@ -22,3 +30,4 @@ $$
 
     sudo apt-get install python3-numpy
 
+#### instale o Anaconda ou Spyder
